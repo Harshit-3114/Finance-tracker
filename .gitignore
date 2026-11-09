@@ -34,5 +34,9 @@ Thumbs.db
 # Node (if any)
 node_modules/
 
+# Accidental root npm artefacts - the real app lives in client_react/
+/package.json
+/package-lock.json
+
 # Build outputs
 *.map
